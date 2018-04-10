@@ -1,0 +1,1 @@
+Spüler, Martin & Rosenstiel, Wolfgang & Bogdan, Martin. (2011). A fast feature selection method for high-dimensional MEG BCI data. Proceedings of the 5th International Brain-Computer Interface Conference. 24-27. 
