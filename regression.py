@@ -55,7 +55,7 @@ def normalize(x):
 
 def make_source(z_t_index):
     # load data
-    dataset = loadtxt('house_files/train.txt')
+    dataset = loadtxt('train.txt')
     # split data into X and y
     X,ys = dataset[:,1:9],dataset[:,0]
     xs=np.delete(X, z_t_index, 1)  # delete  column of X
@@ -64,7 +64,7 @@ def make_source(z_t_index):
 def make_target(numb):
     ## we are finding the features with most importance value and then will call it z_t
     # load data
-    dataset = loadtxt('house_files/test.txt')
+    dataset = loadtxt('test.txt')
     # split data into X and y
     X,yt = dataset[:,1:9],dataset[:,0]
     # fit model no training data
