@@ -1,5 +1,3 @@
-# intercept kaunsi
-# pca nhi kia
 
 # plot feature importance manually
 from sklearn.metrics import mean_squared_error
